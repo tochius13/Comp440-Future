@@ -1,0 +1,82 @@
+Description
+This is the major release milestone for this semester. Your task is to develop a comprehensive proof of concept for your app. Here’s what you need to do:
+
+Use Libraries Significantly: Your app should make significant use of all the libraries required for the project. This means it should do much more than just a "Hello World" demonstration.
+
+Integrate External APIs: Use all the external APIs planned for your project. This includes operations like reading/writing from a file if you plan to use files, pinging the GPS if you plan to use GPS, sending a tweet if you plan to use Twitter, or performing read/write operations if you plan to use a database.
+
+Deploy the App: Ensure your app is deployed. If it’s a web app, it should be live on the web. If it’s an Android app, it should be running on an Android device, etc.
+
+Implement Core Functionality: Implement at least 10% of the final functionality.
+
+The objective is to have a fully functional proof of concept of your final application. This will demonstrate that all your chosen libraries and frameworks are compatible and that you can implement and deploy a working app.
+
+For example,
+
+If your project is a fitness tracking app, your proof of concept should include:
+
+User Interface: A simple interface where users can start and stop tracking their workouts.
+
+Data Capture: Basic functionality for recording workout data such as duration, type of exercise, and calories burned.
+
+APIs: Integration with an external API, like fetching weather data for outdoor activities.
+
+Data Storage: Read/write functionality to a local or remote database to save workout sessions.
+
+User Authentication: Basic user sign-up and login functionality.
+
+Visualization: Display simple graphs or charts showing the user's workout progress over time.
+
+How to Accomplish Your Proof of Concept (POC)
+Planning:
+
+Identify all the libraries and external APIs you will use.
+
+Outline the key functionalities that need to be included in the POC.
+
+Set Up Your Development Environment:
+
+Install necessary libraries and frameworks.
+
+Set up version control using GitHub.
+
+Implement Core Functionalities:
+
+User Interface: Design a basic interface using HTML/CSS for web apps, or XML for Android apps.
+
+Data Capture: Write code to capture and store workout data.
+
+APIs: Integrate external APIs and test them.
+
+Data Storage: Implement database functionalities and ensure data can be read/written.
+
+User Authentication: Create a simple authentication system.
+
+Visualization: Use libraries like Chart.js  Links to an external site.for web or anything you know
+
+Testing:
+
+Test each functionality independently to ensure they work as expected.
+
+Perform integration testing to ensure all components work together seamlessly.
+
+Deployment:
+
+For web apps, deploy your app to a web server or a platform like Heroku or AWS.
+
+For mobile apps, deploy to a physical device or emulator.
+
+Review and Iterate:
+
+Collect feedback from team members or users.
+
+Make necessary adjustments and improvements based on feedback.
+
+Deliverables
+To release your code, follow these steps:
+
+Create a Git Tag: Name it v0.1 on the commit that marks the release using the command git tag v0.1.
+
+Push Tags to GitHub: Use git push --tags. Once pushed, you’ll find a Release page called v0.1 in your GitHub repo. You can rename it to Proof of Concept if you like. If you encounter issues with tags, create the Release named Proof of Concept on GitHub.
+
+Web Apps: Publish your web app on the internet. Put the URL of your deployed app in the description textbox for that Release. If a username/password is required, provide them, and attach any other files or binaries needed to test your app.
