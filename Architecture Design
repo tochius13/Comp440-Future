@@ -1,1 +1,58 @@
-Architecture Design
+Description
+
+Now that you're comfortable with your framework, write a document outlining the major parts of your code. The structure will depend on your chosen framework.
+
+You must watch the 
+Architecture Links to an external site.
+
+ lecture before working on this milestone.
+
+
+For a Web App:
+Database Tables (Models).
+
+Views: Describe each view.
+
+Controllers: List them.
+
+URLs: List URLs and what each one does.
+
+Design Considerations
+Think about your design deeply.
+
+Go over common use-cases: Which methods will be invoked?
+
+Ensure methods have references to all necessary objects.
+
+Aim for decoupling: fewer references mean easier maintenance.
+
+Deliverables
+
+Add an Architecture document to the wiki. It should contain:
+
+Languages/Frameworks/Libraries/Services/APIs: List and explain how they tie together.
+
+Package/Build Manager: e.g., npm, Gradle, Yarn
+
+Task Assignments: What each person will work on. Significant code contributions required from everyone.
+
+Embedded Images: All images must be embedded in the wiki and hosted on GitHub.
+
+Readability: Make the wiki easy to read.
+
+For a Web App:
+Deployment: How will you deploy? Which hosting providers? Automation? Scripts? Explain.
+
+Development/Deployment Environments: Are you using VMs (VMware) or Containers (Docker)? Explain.
+
+Type of Web App: SPA or traditional, or a mix? Explain.
+
+URLs: List URLs and link each one to the relevant page in your Detailed Design milestone.
+
+REST API: Document if implementing, list methods and parameters, and describe in English.
+
+Views: Embed images from your Design Milestone. Describe each view, like Header, Menu, Content.
+
+Database Schema: List tables/documents with attributes and their types. Describe each table and attribute in English.
+
+Common Queries
