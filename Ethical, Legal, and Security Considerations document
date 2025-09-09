@@ -1,0 +1,59 @@
+Your team will create a set of github pages discussing the potential ethical, legal, and security implications of your app. The aim is to identify potential problems or issues that might arise from the app's use and develop an initial plan to either prevent these problems or address them if they occur.
+
+Also review 
+
+https://www.youtube.com/watch?v=MHhHrztQ-Cw Links to an external site.
+
+
+https://www.stackhawk.com/blog/10-web-application-security-threats-and-how-to-mitigate-them/ Links to an external site.
+
+Some key areas to consider:
+Data Protection: How does your web application secure user data? Consider encryption, secure storage, and data access controls.
+Authentication and Authorization: What methods are in place to ensure that users are who they say they are, and that they have appropriate access to resources?
+Common Vulnerabilities: Look into common web application vulnerabilities such as SQL Injection, Cross-Site Scripting (XSS), and Cross-Site Request Forgery (CSRF). How does your application defend against these threats?
+Attack Vectors: Identify potential attack vectors—ways malicious users might try to exploit your application. This includes looking at both client-side and server-side vulnerabilities.
+Security Best Practices: What best practices are you implementing to maintain a secure web application? This could include regular security audits, code reviews, and the use of security frameworks or libraries.
+Your task is to critically analyze your web application through the lens of these security concerns and develop a plan to address them. Document your findings and proposed solutions thoroughly.
+The software you develop and the decisions you make during coding can have real-world consequences, sometimes unexpected. The tech community is always watching. For examples, check out the "Policy" section on any major tech blog such as Policy@The Verge, Cybersecurity@The Verge, Privacy@The Verge, Policy@Ars Technica.
+
+
+These sections refer to dedicated parts of tech blogs that focus on various aspects of technology-related policies, security, and privacy:
+
+Policy@The Verge Links to an external site.: This section covers news, discussions, and analysis on policies impacting technology and its use.
+
+Cybersecurity@The Verge Links to an external site.: Focuses on news and insights related to cybersecurity threats, defenses, and best practices.
+
+Privacy@The Verge Links to an external site.: Deals with issues around data privacy, including regulations, user rights, and corporate practices.
+
+Policy@Ars Technica Links to an external site.: Similar to The Verge, this section on Ars Technica provides in-depth coverage of policy-related tech issues.
+
+ 
+
+Topics to Address:
+Ethical Issues
+Identify any ethical concerns related to your software.
+
+Does your software meet users' privacy expectations?
+
+Could your software result in discrimination based on race, gender, religion, or other factors? How does your software address these concerns?
+
+Can your software be misused by some users to harm others or the public? How do you prevent this?
+
+Legal Issues
+Identify any legal concerns related to your software.
+
+Is your software complying with all licensing agreements? List all third-party software you plan to use and ensure you have the right to use them as intended.
+
+Are there any intellectual property constraints from your client or the owner of some dataset you need to use? List them.
+
+Can your users use your app to break the law, post copyrighted works on your web app, steal information, etc.?
+
+Security Issues
+Identify any security concerns related to your software.
+
+Identify sensitive information stored by your software and explain how you plan to protect it.
+
+Identify possible attack vectors—ways malicious users could try to exploit your software to gain unauthorized access. This includes root access to your server, access to other users' sensitive information (e.g., via XSS attacks), root access to your database, etc. Explain your protection plan.
+
+Deliverables
+Write the above paragraphs in your GITHUB, creating three pages titled Ethical Issues, Legal Issues, and Security Issues, respectively.
